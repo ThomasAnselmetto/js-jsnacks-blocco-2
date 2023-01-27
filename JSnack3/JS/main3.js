@@ -2,7 +2,7 @@
 
 //sommo quelli che  sono in posizione dispari
 
-const numbers = [54,59,22,21,3,98,745,24,698,]
+const numbers = [1,2,3,4,5,6,7]
 
    let operazione = 0;
 
@@ -17,10 +17,10 @@ for (let i = 0; i < numbers.length; i++){
 
     if (currentNumber % 2 !== 0){
         
-        operazione = operazione + currentNumber;
+        operazione += currentNumber;
 
-    console.log("il risultato" + operazione);
     }
 }
+console.log("il risultato" + operazione);
 
 
