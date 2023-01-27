@@ -25,6 +25,4 @@ for (let i = 0; i < numbers.length; i++) {
             messageEl.innerHTML = "ricarica la pagina";
         }
     }
-// }
-//  if (hoTrovatoUnNumpari = true){
-//           messageEl.innerHTML = currentElement;
+
