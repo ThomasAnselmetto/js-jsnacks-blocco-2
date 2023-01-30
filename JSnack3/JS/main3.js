@@ -15,7 +15,7 @@ for (let i = 0; i < numbers.length; i++){
 
     
 
-    if (currentNumber % 2 !== 0){
+    if (currentNumber % 2 != 0){
         
         operazione += currentNumber;
 
